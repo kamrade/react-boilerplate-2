@@ -12,7 +12,8 @@ app.use(function(req, res, next) {
 app.use(express.static('public'));
 
 app.set('views', './public/views');
-app.set('view engine', 'jade');
+// app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 app.get('/', function(req, res) {
 	res.render('index', {

@@ -34,7 +34,7 @@ module.exports = {
 		},
 		extensions: ['.js', '', '.jsx']
 	},
-	watch: NODE_ENV == 'development',
+	// watch: NODE_ENV == 'development',
 	watchOptions: {
 		aggregateTimeout: 100
 	},
